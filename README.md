@@ -3,12 +3,10 @@ configurable Authentication&amp;Authorization Management
 
 Below are principles and best practice to follow:
 (1) Authentication, authorization and Business Logic should be well separated.
-(2) Authorization is the process of verifying access permissions(employee,
-or another API) to resource
-(3) Authorization is hard to standardize and more of application
-specific. It’s better to implement it on official and popular
-framework and packages.[3]
+(2) Authorization is the process of verifying access permissions(employee,or another API) to resource
+(3) Authorization is hard to standardize and more of application specific. It’s better to implement it on official and popular framework and packages.[1]
 (4) Permission is the authorization rules with claims as parameters
+
 (5) Generally, every restricted resource has an access policy
 (6) Resources(section of code, edit or delete button, and etc),
 organization, permission provide different perspectives to
